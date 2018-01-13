@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79D5E149B6AC2D76A349FE81 /* libPods-SuperManTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B1CB08857075BF88CE8C46 /* libPods-SuperManTests.a */; };
+		B1556CCBB1CC30A8D71E4DA7 /* libPods-SuperMan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F451D554B1C42B67469CAB3 /* libPods-SuperMan.a */; };
+		E208C8252001116E000A364C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C8182001116E000A364C /* Reachability.m */; };
+		E208C8262001116E000A364C /* SCYWebViewCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C8192001116E000A364C /* SCYWebViewCacheModel.m */; };
+		E208C8272001116E000A364C /* SCYCacheURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C81A2001116E000A364C /* SCYCacheURLProtocol.m */; };
+		E208C8282001116E000A364C /* SCYLoanHTMLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C81B2001116E000A364C /* SCYLoanHTMLCache.m */; };
+		E208C8292001116E000A364C /* NSURLRequest+MutableCopyWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C8212001116E000A364C /* NSURLRequest+MutableCopyWorkaround.m */; };
+		E208C82A2001116E000A364C /* NSString+CDEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C8222001116E000A364C /* NSString+CDEncryption.m */; };
+		E208C82D20011183000A364C /* WebConfigHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C82C20011183000A364C /* WebConfigHelper.m */; };
+		E208C830200117AD000A364C /* AppInfoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C82E200117AC000A364C /* AppInfoHelper.m */; };
+		E208C83420011D6D000A364C /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C83220011D6D000A364C /* GameViewController.m */; };
+		E208C83520011D6D000A364C /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E208C83320011D6D000A364C /* GameViewController.xib */; };
+		E208C83820011EE7000A364C /* TimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C83720011EE7000A364C /* TimeHelper.m */; };
+		E208C83F2001233A000A364C /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C83E2001233A000A364C /* BaseModel.m */; };
+		E208C84220012371000A364C /* Good.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C84120012371000A364C /* Good.m */; };
+		E208C845200123B7000A364C /* ExploreResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C844200123B7000A364C /* ExploreResult.m */; };
+		E208C84820012414000A364C /* ExploreMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C84720012414000A364C /* ExploreMessage.m */; };
+		E208C85020012D94000A364C /* GameDateService.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C84F20012D94000A364C /* GameDateService.m */; };
+		E208C85320012EFA000A364C /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C85220012EFA000A364C /* BaseService.m */; };
+		E208C85620012F18000A364C /* ExploreService.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C85520012F18000A364C /* ExploreService.m */; };
 		E2A7E4141FFE5BA90096F987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7E4131FFE5BA90096F987 /* AppDelegate.m */; };
-		E2A7E4171FFE5BA90096F987 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7E4161FFE5BA90096F987 /* ViewController.m */; };
-		E2A7E41A1FFE5BA90096F987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A7E4181FFE5BA90096F987 /* Main.storyboard */; };
 		E2A7E41C1FFE5BA90096F987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A7E41B1FFE5BA90096F987 /* Assets.xcassets */; };
 		E2A7E41F1FFE5BA90096F987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A7E41D1FFE5BA90096F987 /* LaunchScreen.storyboard */; };
 		E2A7E4221FFE5BA90096F987 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7E4211FFE5BA90096F987 /* main.m */; };
 		E2A7E42C1FFE5BA90096F987 /* SuperManTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7E42B1FFE5BA90096F987 /* SuperManTests.m */; };
 		E2A7E4371FFE5BA90096F987 /* SuperManUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7E4361FFE5BA90096F987 /* SuperManUITests.m */; };
+		E2BE19AA200239E10055751E /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BE19A9200239E10055751E /* NetworkHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +54,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F451D554B1C42B67469CAB3 /* libPods-SuperMan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperMan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF9F4765AE71D650E10B834 /* Pods-SuperMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperMan/Pods-SuperMan.debug.xcconfig"; sourceTree = "<group>"; };
+		9282E653EF30C9EAA0B0EC78 /* Pods-SuperMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperMan.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperMan/Pods-SuperMan.release.xcconfig"; sourceTree = "<group>"; };
+		9680449D07525CBAC4E54A8E /* Pods-SuperManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperManTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperManTests/Pods-SuperManTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9B1CB08857075BF88CE8C46 /* libPods-SuperManTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperManTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E208C8182001116E000A364C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E208C8192001116E000A364C /* SCYWebViewCacheModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCYWebViewCacheModel.m; sourceTree = "<group>"; };
+		E208C81A2001116E000A364C /* SCYCacheURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCYCacheURLProtocol.m; sourceTree = "<group>"; };
+		E208C81B2001116E000A364C /* SCYLoanHTMLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCYLoanHTMLCache.m; sourceTree = "<group>"; };
+		E208C81C2001116E000A364C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E208C81D2001116E000A364C /* SCYWebViewCacheModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCYWebViewCacheModel.h; sourceTree = "<group>"; };
+		E208C81E2001116E000A364C /* SCYLoanHTMLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCYLoanHTMLCache.h; sourceTree = "<group>"; };
+		E208C81F2001116E000A364C /* SCYCacheURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCYCacheURLProtocol.h; sourceTree = "<group>"; };
+		E208C8212001116E000A364C /* NSURLRequest+MutableCopyWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+MutableCopyWorkaround.m"; sourceTree = "<group>"; };
+		E208C8222001116E000A364C /* NSString+CDEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDEncryption.m"; sourceTree = "<group>"; };
+		E208C8232001116E000A364C /* NSURLRequest+MutableCopyWorkaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+MutableCopyWorkaround.h"; sourceTree = "<group>"; };
+		E208C8242001116E000A364C /* NSString+CDEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CDEncryption.h"; sourceTree = "<group>"; };
+		E208C82B20011183000A364C /* WebConfigHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebConfigHelper.h; sourceTree = "<group>"; };
+		E208C82C20011183000A364C /* WebConfigHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebConfigHelper.m; sourceTree = "<group>"; };
+		E208C82E200117AC000A364C /* AppInfoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoHelper.m; sourceTree = "<group>"; };
+		E208C82F200117AD000A364C /* AppInfoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoHelper.h; sourceTree = "<group>"; };
+		E208C83120011D6D000A364C /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E208C83220011D6D000A364C /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		E208C83320011D6D000A364C /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		E208C83620011EE7000A364C /* TimeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeHelper.h; sourceTree = "<group>"; };
+		E208C83720011EE7000A364C /* TimeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeHelper.m; sourceTree = "<group>"; };
+		E208C83D2001233A000A364C /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		E208C83E2001233A000A364C /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		E208C84020012371000A364C /* Good.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Good.h; sourceTree = "<group>"; };
+		E208C84120012371000A364C /* Good.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Good.m; sourceTree = "<group>"; };
+		E208C843200123B7000A364C /* ExploreResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreResult.h; sourceTree = "<group>"; };
+		E208C844200123B7000A364C /* ExploreResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreResult.m; sourceTree = "<group>"; };
+		E208C84620012414000A364C /* ExploreMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreMessage.h; sourceTree = "<group>"; };
+		E208C84720012414000A364C /* ExploreMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreMessage.m; sourceTree = "<group>"; };
+		E208C84E20012D94000A364C /* GameDateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDateService.h; sourceTree = "<group>"; };
+		E208C84F20012D94000A364C /* GameDateService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDateService.m; sourceTree = "<group>"; };
+		E208C85120012EFA000A364C /* BaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
+		E208C85220012EFA000A364C /* BaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
+		E208C85420012F18000A364C /* ExploreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreService.h; sourceTree = "<group>"; };
+		E208C85520012F18000A364C /* ExploreService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreService.m; sourceTree = "<group>"; };
 		E2A7E40F1FFE5BA80096F987 /* SuperMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A7E4121FFE5BA90096F987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2A7E4131FFE5BA90096F987 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E2A7E4151FFE5BA90096F987 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E2A7E4161FFE5BA90096F987 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E2A7E4191FFE5BA90096F987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2A7E41B1FFE5BA90096F987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A7E41E1FFE5BA90096F987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2A7E4201FFE5BA90096F987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +107,9 @@
 		E2A7E4321FFE5BA90096F987 /* SuperManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A7E4361FFE5BA90096F987 /* SuperManUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperManUITests.m; sourceTree = "<group>"; };
 		E2A7E4381FFE5BA90096F987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BE19A8200239E10055751E /* NetworkHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		E2BE19A9200239E10055751E /* NetworkHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
+		F15B5E669FF625A841C48889 /* Pods-SuperManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperManTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperManTests/Pods-SuperManTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1556CCBB1CC30A8D71E4DA7 /* libPods-SuperMan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D5E149B6AC2D76A349FE81 /* libPods-SuperManTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +139,112 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C00DCAC2E1518BF3FA0F693 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AF9F4765AE71D650E10B834 /* Pods-SuperMan.debug.xcconfig */,
+				9282E653EF30C9EAA0B0EC78 /* Pods-SuperMan.release.xcconfig */,
+				F15B5E669FF625A841C48889 /* Pods-SuperManTests.debug.xcconfig */,
+				9680449D07525CBAC4E54A8E /* Pods-SuperManTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E208C8162001116E000A364C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E208C8172001116E000A364C /* LoanCacheTool */,
+				E208C8202001116E000A364C /* categary */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E208C8172001116E000A364C /* LoanCacheTool */ = {
+			isa = PBXGroup;
+			children = (
+				E208C81C2001116E000A364C /* Reachability.h */,
+				E208C8182001116E000A364C /* Reachability.m */,
+				E208C81D2001116E000A364C /* SCYWebViewCacheModel.h */,
+				E208C8192001116E000A364C /* SCYWebViewCacheModel.m */,
+				E208C81F2001116E000A364C /* SCYCacheURLProtocol.h */,
+				E208C81A2001116E000A364C /* SCYCacheURLProtocol.m */,
+				E208C81E2001116E000A364C /* SCYLoanHTMLCache.h */,
+				E208C81B2001116E000A364C /* SCYLoanHTMLCache.m */,
+			);
+			path = LoanCacheTool;
+			sourceTree = "<group>";
+		};
+		E208C8202001116E000A364C /* categary */ = {
+			isa = PBXGroup;
+			children = (
+				E208C8232001116E000A364C /* NSURLRequest+MutableCopyWorkaround.h */,
+				E208C8212001116E000A364C /* NSURLRequest+MutableCopyWorkaround.m */,
+				E208C8242001116E000A364C /* NSString+CDEncryption.h */,
+				E208C8222001116E000A364C /* NSString+CDEncryption.m */,
+			);
+			path = categary;
+			sourceTree = "<group>";
+		};
+		E208C83C200122BC000A364C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E208C83D2001233A000A364C /* BaseModel.h */,
+				E208C83E2001233A000A364C /* BaseModel.m */,
+				E208C84020012371000A364C /* Good.h */,
+				E208C84120012371000A364C /* Good.m */,
+				E208C843200123B7000A364C /* ExploreResult.h */,
+				E208C844200123B7000A364C /* ExploreResult.m */,
+				E208C84620012414000A364C /* ExploreMessage.h */,
+				E208C84720012414000A364C /* ExploreMessage.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E208C84920012C4A000A364C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E208C85120012EFA000A364C /* BaseService.h */,
+				E208C85220012EFA000A364C /* BaseService.m */,
+				E208C84E20012D94000A364C /* GameDateService.h */,
+				E208C84F20012D94000A364C /* GameDateService.m */,
+				E208C84A20012D75000A364C /* BattleTranscript */,
+				E208C84B20012D75000A364C /* Explore */,
+				E208C84D20012D75000A364C /* Home */,
+				E208C84C20012D75000A364C /* PVP */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E208C84A20012D75000A364C /* BattleTranscript */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BattleTranscript;
+			sourceTree = "<group>";
+		};
+		E208C84B20012D75000A364C /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				E208C85420012F18000A364C /* ExploreService.h */,
+				E208C85520012F18000A364C /* ExploreService.m */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		E208C84C20012D75000A364C /* PVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PVP;
+			sourceTree = "<group>";
+		};
+		E208C84D20012D75000A364C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		E2A7E4061FFE5BA80096F987 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +252,8 @@
 				E2A7E42A1FFE5BA90096F987 /* SuperManTests */,
 				E2A7E4351FFE5BA90096F987 /* SuperManUITests */,
 				E2A7E4101FFE5BA80096F987 /* Products */,
+				0C00DCAC2E1518BF3FA0F693 /* Pods */,
+				F1B006EE70F786C895A41BA5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +272,20 @@
 			children = (
 				E2A7E4121FFE5BA90096F987 /* AppDelegate.h */,
 				E2A7E4131FFE5BA90096F987 /* AppDelegate.m */,
-				E2A7E4151FFE5BA90096F987 /* ViewController.h */,
-				E2A7E4161FFE5BA90096F987 /* ViewController.m */,
-				E2A7E4181FFE5BA90096F987 /* Main.storyboard */,
+				E208C82F200117AD000A364C /* AppInfoHelper.h */,
+				E208C82E200117AC000A364C /* AppInfoHelper.m */,
+				E208C83620011EE7000A364C /* TimeHelper.h */,
+				E208C83720011EE7000A364C /* TimeHelper.m */,
+				E2BE19A8200239E10055751E /* NetworkHelper.h */,
+				E2BE19A9200239E10055751E /* NetworkHelper.m */,
+				E208C82B20011183000A364C /* WebConfigHelper.h */,
+				E208C82C20011183000A364C /* WebConfigHelper.m */,
+				E208C83120011D6D000A364C /* GameViewController.h */,
+				E208C83220011D6D000A364C /* GameViewController.m */,
+				E208C83320011D6D000A364C /* GameViewController.xib */,
+				E208C84920012C4A000A364C /* Service */,
+				E208C83C200122BC000A364C /* Models */,
+				E208C8162001116E000A364C /* Tools */,
 				E2A7E41B1FFE5BA90096F987 /* Assets.xcassets */,
 				E2A7E41D1FFE5BA90096F987 /* LaunchScreen.storyboard */,
 				E2A7E4201FFE5BA90096F987 /* Info.plist */,
@@ -132,6 +312,15 @@
 			path = SuperManUITests;
 			sourceTree = "<group>";
 		};
+		F1B006EE70F786C895A41BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F451D554B1C42B67469CAB3 /* libPods-SuperMan.a */,
+				C9B1CB08857075BF88CE8C46 /* libPods-SuperManTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2A7E43B1FFE5BA90096F987 /* Build configuration list for PBXNativeTarget "SuperMan" */;
 			buildPhases = (
+				37E340FA20C0D72E54A45F02 /* [CP] Check Pods Manifest.lock */,
 				E2A7E40B1FFE5BA80096F987 /* Sources */,
 				E2A7E40C1FFE5BA80096F987 /* Frameworks */,
 				E2A7E40D1FFE5BA80096F987 /* Resources */,
+				ECE630CE3BD1B14EF0471239 /* [CP] Embed Pods Frameworks */,
+				6631BDB17AED31E2BC25CF29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +348,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2A7E43E1FFE5BA90096F987 /* Build configuration list for PBXNativeTarget "SuperManTests" */;
 			buildPhases = (
+				F264617254A006264C3B83A4 /* [CP] Check Pods Manifest.lock */,
 				E2A7E4231FFE5BA90096F987 /* Sources */,
 				E2A7E4241FFE5BA90096F987 /* Frameworks */,
 				E2A7E4251FFE5BA90096F987 /* Resources */,
+				4B6C6A1150ECD3523F7115CE /* [CP] Embed Pods Frameworks */,
+				8E591EDD04D9EF384278C402 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +433,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E208C83520011D6D000A364C /* GameViewController.xib in Resources */,
 				E2A7E41F1FFE5BA90096F987 /* LaunchScreen.storyboard in Resources */,
 				E2A7E41C1FFE5BA90096F987 /* Assets.xcassets in Resources */,
-				E2A7E41A1FFE5BA90096F987 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +455,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37E340FA20C0D72E54A45F02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperMan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B6C6A1150ECD3523F7115CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperManTests/Pods-SuperManTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6631BDB17AED31E2BC25CF29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperMan/Pods-SuperMan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E591EDD04D9EF384278C402 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperManTests/Pods-SuperManTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE630CE3BD1B14EF0471239 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperMan/Pods-SuperMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F264617254A006264C3B83A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuperManTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2A7E40B1FFE5BA80096F987 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2A7E4171FFE5BA90096F987 /* ViewController.m in Sources */,
+				E208C85620012F18000A364C /* ExploreService.m in Sources */,
+				E208C8292001116E000A364C /* NSURLRequest+MutableCopyWorkaround.m in Sources */,
+				E208C830200117AD000A364C /* AppInfoHelper.m in Sources */,
+				E208C85320012EFA000A364C /* BaseService.m in Sources */,
+				E2BE19AA200239E10055751E /* NetworkHelper.m in Sources */,
+				E208C83820011EE7000A364C /* TimeHelper.m in Sources */,
+				E208C8282001116E000A364C /* SCYLoanHTMLCache.m in Sources */,
+				E208C83420011D6D000A364C /* GameViewController.m in Sources */,
 				E2A7E4221FFE5BA90096F987 /* main.m in Sources */,
+				E208C84820012414000A364C /* ExploreMessage.m in Sources */,
+				E208C8272001116E000A364C /* SCYCacheURLProtocol.m in Sources */,
+				E208C82A2001116E000A364C /* NSString+CDEncryption.m in Sources */,
+				E208C845200123B7000A364C /* ExploreResult.m in Sources */,
+				E208C8252001116E000A364C /* Reachability.m in Sources */,
 				E2A7E4141FFE5BA90096F987 /* AppDelegate.m in Sources */,
+				E208C85020012D94000A364C /* GameDateService.m in Sources */,
+				E208C83F2001233A000A364C /* BaseModel.m in Sources */,
+				E208C82D20011183000A364C /* WebConfigHelper.m in Sources */,
+				E208C84220012371000A364C /* Good.m in Sources */,
+				E208C8262001116E000A364C /* SCYWebViewCacheModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +614,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E2A7E4181FFE5BA90096F987 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2A7E4191FFE5BA90096F987 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2A7E41D1FFE5BA90096F987 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,10 +731,12 @@
 		};
 		E2A7E43C1FFE5BA90096F987 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF9F4765AE71D650E10B834 /* Pods-SuperMan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SuperMan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Acc.SuperMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +746,12 @@
 		};
 		E2A7E43D1FFE5BA90096F987 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9282E653EF30C9EAA0B0EC78 /* Pods-SuperMan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SuperMan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Acc.SuperMan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +761,7 @@
 		};
 		E2A7E43F1FFE5BA90096F987 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F15B5E669FF625A841C48889 /* Pods-SuperManTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +776,7 @@
 		};
 		E2A7E4401FFE5BA90096F987 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9680449D07525CBAC4E54A8E /* Pods-SuperManTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
