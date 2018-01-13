@@ -24,9 +24,9 @@
 		E208C84220012371000A364C /* Good.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C84120012371000A364C /* Good.m */; };
 		E208C845200123B7000A364C /* ExploreResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C844200123B7000A364C /* ExploreResult.m */; };
 		E208C84820012414000A364C /* ExploreMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C84720012414000A364C /* ExploreMessage.m */; };
-		E208C85020012D94000A364C /* GameDateService.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C84F20012D94000A364C /* GameDateService.m */; };
 		E208C85320012EFA000A364C /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C85220012EFA000A364C /* BaseService.m */; };
 		E208C85620012F18000A364C /* ExploreService.m in Sources */ = {isa = PBXBuildFile; fileRef = E208C85520012F18000A364C /* ExploreService.m */; };
+		E2781FA32009FD3D00406D08 /* GameDateService.m in Sources */ = {isa = PBXBuildFile; fileRef = E2781FA22009FD3D00406D08 /* GameDateService.m */; };
 		E2A7E4141FFE5BA90096F987 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A7E4131FFE5BA90096F987 /* AppDelegate.m */; };
 		E2A7E41C1FFE5BA90096F987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A7E41B1FFE5BA90096F987 /* Assets.xcassets */; };
 		E2A7E41F1FFE5BA90096F987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A7E41D1FFE5BA90096F987 /* LaunchScreen.storyboard */; };
@@ -88,12 +88,12 @@
 		E208C844200123B7000A364C /* ExploreResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreResult.m; sourceTree = "<group>"; };
 		E208C84620012414000A364C /* ExploreMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreMessage.h; sourceTree = "<group>"; };
 		E208C84720012414000A364C /* ExploreMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreMessage.m; sourceTree = "<group>"; };
-		E208C84E20012D94000A364C /* GameDateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDateService.h; sourceTree = "<group>"; };
-		E208C84F20012D94000A364C /* GameDateService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDateService.m; sourceTree = "<group>"; };
 		E208C85120012EFA000A364C /* BaseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
 		E208C85220012EFA000A364C /* BaseService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
 		E208C85420012F18000A364C /* ExploreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploreService.h; sourceTree = "<group>"; };
 		E208C85520012F18000A364C /* ExploreService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploreService.m; sourceTree = "<group>"; };
+		E2781FA12009FD3D00406D08 /* GameDateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDateService.h; sourceTree = "<group>"; };
+		E2781FA22009FD3D00406D08 /* GameDateService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDateService.m; sourceTree = "<group>"; };
 		E2A7E40F1FFE5BA80096F987 /* SuperMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A7E4121FFE5BA90096F987 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2A7E4131FFE5BA90096F987 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -205,8 +205,8 @@
 			children = (
 				E208C85120012EFA000A364C /* BaseService.h */,
 				E208C85220012EFA000A364C /* BaseService.m */,
-				E208C84E20012D94000A364C /* GameDateService.h */,
-				E208C84F20012D94000A364C /* GameDateService.m */,
+				E2781FA12009FD3D00406D08 /* GameDateService.h */,
+				E2781FA22009FD3D00406D08 /* GameDateService.m */,
 				E208C84A20012D75000A364C /* BattleTranscript */,
 				E208C84B20012D75000A364C /* Explore */,
 				E208C84D20012D75000A364C /* Home */,
@@ -572,9 +572,9 @@
 				E208C8272001116E000A364C /* SCYCacheURLProtocol.m in Sources */,
 				E208C82A2001116E000A364C /* NSString+CDEncryption.m in Sources */,
 				E208C845200123B7000A364C /* ExploreResult.m in Sources */,
+				E2781FA32009FD3D00406D08 /* GameDateService.m in Sources */,
 				E208C8252001116E000A364C /* Reachability.m in Sources */,
 				E2A7E4141FFE5BA90096F987 /* AppDelegate.m in Sources */,
-				E208C85020012D94000A364C /* GameDateService.m in Sources */,
 				E208C83F2001233A000A364C /* BaseModel.m in Sources */,
 				E208C82D20011183000A364C /* WebConfigHelper.m in Sources */,
 				E208C84220012371000A364C /* Good.m in Sources */,
